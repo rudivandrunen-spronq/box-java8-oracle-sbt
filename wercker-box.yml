@@ -1,5 +1,5 @@
 name: java8-oracle-sbt
-version: 0.0.1
+version: 0.0.2
 description: Java8 box provisioned with the Oracle distribution via the webupd8team ppa. Come with last last sbt (currently 0.13.7)
 keywords:
   - java

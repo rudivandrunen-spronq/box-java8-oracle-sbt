@@ -9,7 +9,7 @@ Basic working example
 To build simple Play2 application You just have to create ```wercker.yml``` file with following content and place in the root of your Java project.
 
 ```yml
-box: studiodev/java8-oracle-sbt@0.0.1
+box: studiodev/java8-oracle-sbt@0.0.2
 build:
   steps:
     - script:
