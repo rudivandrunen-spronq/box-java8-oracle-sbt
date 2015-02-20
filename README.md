@@ -12,14 +12,6 @@ To build simple Play2 application You just have to create ```wercker.yml``` file
 box: studiodev/java8-oracle-sbt@0.0.2
 build:
   steps:
-    - script:
-        name: Show base information
-          code: |
-            gradle -v
-            echo $JAVA_HOME
-            java -version
-            javac -version
-            sbt -version
       - script:
           name: Run sbt tests
           code: sbt test
